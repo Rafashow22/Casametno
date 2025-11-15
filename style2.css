@@ -1,5 +1,6 @@
 body {
       margin: 0;
+      padding: 0;
       font-family: 'Poppins', sans-serif;
       background: linear-gradient(135deg, #ffb6c1, #ff69b4);
       color: #fff;
@@ -8,17 +9,18 @@ body {
     }
 
      h1 {
-      font-size: 3em;
-      margin-top: 50px;
-      animation: fadeIn 2s ease;
+        font-size: 3em;
+        margin-top: 70px;
+        animation: fadeIn 4s ease;
     }
 
     h2{
       font-size: 1.2em;
-      max-width: 600px;
-      margin: 20px auto;
-      line-height: 1.5;
-      animation: fadeIn 3s ease;
+        max-width: 600px;
+        margin: 55px auto;
+        line-height: 1.5;
+        animation: fadeIn 4s ease;
+          height: 127px;
     }
 
     p{
@@ -26,3 +28,91 @@ body {
       margin-top: 50px;
       animation: fadeIn 2s ease;
     }
+
+
+.Sim{
+
+  width: 130px;
+  height: 50px;
+  background: white;
+  transform: scale(1.05);
+  margin-right: 30px;
+  border-radius: 24px;
+  cursor: pointer;
+  
+}
+.Sim:hover {
+background: #ffe4ec;
+transform: scale(1.05);
+}
+
+.Não{
+
+ width: 130px;
+  height: 50px;
+  background: white;
+  transform: scale(1.05);
+  margin-right: 30px;
+  border-radius: 24px;
+  cursor: pointer;
+
+    }
+
+    .Não:hover {
+background: #ffe4ec;
+transform: scale(1.05);
+
+    }
+
+    @media (max-width: 480px) {
+
+    h1 {
+        margin-top: 40px;
+        font-size: 2rem; /* garante leitura */
+    }
+
+    h2 {
+        font-size: 1rem;
+        margin: 20px auto;
+        height: auto;  /* evita quebrar no mobile */
+    }
+
+    p {
+        font-size: 2rem;
+        margin-top: 30px;
+    }
+
+    /* Botões maiores e centralizados no mobile */
+    .Sim, .Não {
+        width: 120px;
+        height: 55px;
+        margin: 10px 10px auto;
+        font-size: 1.2rem;
+        border-radius: 20px;
+        border: none;
+        background: #ffb6c1;
+        
+
+    }
+
+.Sim:Hover{
+background: #ffe4ec;
+transform: scale(1.05);
+
+}
+
+    .Não:hover{
+
+background: #ffe4ec;
+transform: scale(1.05);
+
+    }
+}
+
+
+
+
+
+
+
+    
